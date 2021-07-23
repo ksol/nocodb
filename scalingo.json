@@ -1,0 +1,24 @@
+{
+  "name": "nocodb",
+  "description": "Create APIs at the speed of thoughts",
+  "logo": "https://xgenecloud.com/brand/favicon-64.png",
+  "keywords": [
+    "nocodb"
+  ],
+  "success_url": "/dashboard",
+  "website": "https://nocodb.com",
+  "repository": "https://github.com/ksol/nocodb",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "stack": "container",
+  "addons": [
+    "postgresql"
+  ],
+   "env": {
+        "NC_ONE_CLICK": "true",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+    }
+}
